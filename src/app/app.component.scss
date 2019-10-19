@@ -1,0 +1,46 @@
+#chart-container {
+  padding-top: 50px;
+  // background-color: gray;
+  .container-chart-canvas {
+    // height: 200px;
+  }
+
+  span{
+      color: white;
+      font-size: 2rem;
+  }
+
+  .container-indicators {
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+
+  .card.cus-card {
+    border-radius: 50% !important;
+  }
+
+  .card {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23) !important;
+  }
+
+  .card:hover {
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22) !important;
+  }
+
+  .card.cus-card.card-pred {
+    background-color: #1f5ba4;
+  }
+
+  .card.cus-card.card-pred:hover {
+    background-color: #1f5ba4;
+    border-radius: 0% !important;
+  }
+
+  .card.cus-card.card-real {
+    background-color: #1fa433;
+  }
+
+  .card.cus-card.card-real:hover {
+    border-radius: 0% !important;
+  }
+}
