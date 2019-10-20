@@ -52,23 +52,7 @@
             <div class="col">
                 <div class="card">
                     <div class="card-body">
-                        Valor de Venta
-                        <div class="flex">
-                            <div class="flex-item">
-                                <div style="display: block;">
-                                    <canvas baseChart width="200" height="80vh"
-                                        [datasets]="lineChartData"
-                                        [labels]="lineChartLabels"
-                                        [options]="lineChartOptions"
-                                        [colors]="lineChartColors"
-                                        [legend]="lineChartLegend"
-                                        [chartType]="lineChartType"
-                                        [plugins]="lineChartPlugins"
-                                        (chartHover)="chartHovered($event)"
-                                        (chartClick)="chartClicked($event)"></canvas>
-                                </div>
-                            </div>
-                        </div>
+                        <ngx-line-chart [dataSets]="myDataSets"></ngx-line-chart>
                     </div>
                 </div>
             </div>

@@ -10,6 +10,18 @@ import * as pluginAnnotations from 'chartjs-plugin-annotation';
 })
 export class AppComponent implements OnInit {
 
+  myDataSets = [{
+    name: 'likes',
+    points: [
+        {x: 10, y: 100},
+        {x: 20, y: 500}
+    ]
+}];
+
+formatXAxisValue(value: number) {
+    return `Value ${value}`;
+}
+
   public predValue = 10000;
   public realValue = 12000;
 

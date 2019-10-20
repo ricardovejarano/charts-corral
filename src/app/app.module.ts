@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { ChartsModule } from 'ng2-charts';
 import { AppComponent } from './app.component';
+import { NgxLineChartModule } from 'ngx-line-chart';
 
 @NgModule({
   declarations: [
@@ -9,7 +10,8 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
-    ChartsModule
+    ChartsModule,
+    NgxLineChartModule 
   ],
   providers: [],
   bootstrap: [AppComponent]
